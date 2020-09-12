@@ -16,7 +16,7 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-/*    background: url(images/cedarbackground.tif);*/
+   /* background: url(images/cedarbackground.tif); */
 /*    background: url(images/redwoodbackground.tif);*/
 /*    background-image: url(images/cedarbackground.tif);*/
     font-size: 18px;
@@ -68,8 +68,8 @@ button:focus {
 }
 
 .btn-new {top: 3rem;}
-.btn-draw {top: 31rem;}
-.btn-hold {top: 35rem;}
+.btn-draw {top: 27rem;}
+.btn-hold {top: 30rem;}
 
 
 /**********************************************
@@ -79,7 +79,7 @@ button:focus {
 .player-1-panel {
     width: 50%;
     float: left;
-    height: 600px;
+    height: 500px;
     padding: 100px;
 }
 
@@ -88,8 +88,8 @@ button:focus {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-top: -20px;
-    margin-bottom: 2rem;
+    margin-top: -50px;
+    margin-bottom: 1.5rem;
     position: relative;
 }
 
@@ -97,7 +97,7 @@ button:focus {
     text-align: center;
     font-size: 2.75rem;
 /*    color: #EB4D4D;*/
-    margin-bottom: 13rem;
+    margin-bottom: 11rem;
 }
 
 
@@ -134,20 +134,25 @@ button:focus {
     font-size: 2.2rem;
 }
 
+.winner { background-color: #f7f7f7;}
+.winner .player-name {font-weight: 700; color: #EB4D4D;}
+
 /**********************************************
 *** CARDS
 **********************************************/
 .card {
     position: absolute;
     left: 50%;
-    top: 170px;
+    top: 120px;
     transform: translateX(-50%);
+    width: 150px;
+    border-radius: 5%;
 }
 
 .card2 {
     position: absolute;
     left: 50.35%;
-    top: 220px;
+    top: 150px;
     transform: translateX(-50%);
 }
 
