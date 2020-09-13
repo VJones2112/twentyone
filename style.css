@@ -185,7 +185,7 @@ img {
     .btn-draw {top: 28rem;}
     .btn-hold {top: 30rem;}
 
-    .card {top: 100px;}
+    .card {top: 100px; max-width: 120px}
     .card2 {top: 140px;}
     
     img {height: 170px;}
